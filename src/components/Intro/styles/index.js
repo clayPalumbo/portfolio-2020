@@ -39,7 +39,7 @@ export const IntroWrapper = styled.div`
     justify-content: center;
     align-items: center;
     width: 17rem;
-    height: 17rem;
+    height: 15rem;
     transform: scale(2);
     position: absolute;
 
