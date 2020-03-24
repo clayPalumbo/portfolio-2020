@@ -4,7 +4,7 @@ export const IntroWrapper = styled.div`
   align-items: center;
   background: linear-gradient(0, #a1c4fd, #c2e9fb);
   display: flex;
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   flex-direction: column;
   width: 100%;
@@ -39,7 +39,7 @@ export const IntroWrapper = styled.div`
     justify-content: center;
     align-items: center;
     width: 17rem;
-    height: 15rem;
+    height: 17rem;
     transform: scale(2);
     position: absolute;
 
