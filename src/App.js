@@ -6,11 +6,10 @@ import { AppWrapper } from './styles'
 function App() {
   return (
     <AppWrapper>
-      {/* <Intro/>
+      <Intro/>
       <About />
       <Projects />
-      <Footer/> */}
-      Hello
+      <Footer/>
     </AppWrapper>
   );
 }
