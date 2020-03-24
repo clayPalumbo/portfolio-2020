@@ -1,31 +1,31 @@
 import React from 'react';
 import { AboutWrapper } from './styles'
 import Fade from 'react-reveal/Fade';
-import { Parallax, Background } from 'react-parallax';
-
+import { Parallax } from 'react-parallax';
 
 const About = () => {
     return (
         <AboutWrapper>
             <div className="Container">
+                <div className="Divider"></div>
                 <Parallax
-                    blur={{ min: -15, max: 15 }}
+                    // blur={{ min: -15, max: 15 }}
                     bgImage="https://i.imgur.com/L8grRfa.jpg"
                     bgImageAlt="Charlotte"
                     className="Background"
                     strength={-200}
-                    // renderLayer={percentage => (
-                    //     <div
-                    //         style={{
-                    //             position: 'absolute',
-                    //             background: `rgba(255, 125, 0, ${percentage * 1})`,
-                    //             left: '0%',
-                    //             top: '0%',
-                    //             width: '100%',
-                    //             height: 500,
-                    //         }}
-                    //     />
-                    // )}
+                    renderLayer={percentage => (
+                        <div
+                            style={{
+                                position: 'absolute',
+                                background: `rgba(161, 196, 253, ${(1 - (1.5 * percentage)) })`,
+                                left: '0%',
+                                top: '0%',
+                                width: '100%',
+                                height: 500,
+                            }}
+                        />
+                    )}
                 >
                     <div style={{ height: '200px' }} />
                 </Parallax>

@@ -15,6 +15,7 @@ export const ProjectsWrapper = styled.div`
   .header {
     font-size: 48px;
     margin: 1em;
+    font-family: Product Sans, sans-serif;
   }
 
   .subHeader {
@@ -27,5 +28,11 @@ export const ProjectsWrapper = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  @media only screen and (max-width: 800px)  {
+    .header {
+      font-size: 36px;
+    }
   }
 `;

@@ -2,7 +2,7 @@ import styled from'styled-components';
 
 export const IntroWrapper = styled.div`
   align-items: center;
-  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  background: linear-gradient(0, #a1c4fd, #c2e9fb);
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -15,10 +15,9 @@ export const IntroWrapper = styled.div`
     align-items: center;
 
     &-name {
-      color: #fff;
       font-size: 80px;
       line-height: 150%;
-
+      font-family: Product Sans, sans-serif;
     }
 
     &-title {
@@ -34,14 +33,39 @@ export const IntroWrapper = styled.div`
       text-align: center;
     }
   }
+  .stagger-visualizer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 17rem;
+    transform: scale(2);
+    position: absolute;
+
+    div {
+      /*position: absolute;*/
+      width: 1rem;
+      height: 1rem;
+      border: 1px solid #FFF;
+      background-color: #FFF;
+    }
+  }
   .spacer {
-      height: 40%;
+      /* height: 40%; */
   }
   @media only screen and (max-width: 600px)  {
     .Hero {
       &-name {
         font-size: 50px;
       }
+      &-title {
+        font-size: 24px;
+      }
+    }
+
+    .stagger-visualizer {
+      transform: scale(1);
     }
   }
 

@@ -15,11 +15,20 @@ export const AboutWrapper = styled.div`
     width: 100%;
     margin-bottom: 4em;
   }
+
+  .Divider {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0;
+    background: linear-gradient(180deg, #a1c4fd, #00000000);
+    z-index: 100;
+  }
   .Background {
     /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
-    height: 300px;
+    height: 400px;
     position: absolute !important;
     left: 0;
     width: 100vw;
@@ -27,7 +36,7 @@ export const AboutWrapper = styled.div`
   }
 
   .Profile {
-    margin-top: 100px;
+    margin-top: 200px;
     padding: 2em;
     background: #fff;
     border-radius: 0 0 5px 5px;
@@ -44,6 +53,26 @@ export const AboutWrapper = styled.div`
       margin-bottom: 1em;
       position: relative;
       z-index: 10;
+      transition: 0.8s ease-out;
+
+      &::before {
+        content: '';
+        height: 39px;
+        width: 10px;
+        background: white;
+        z-index: 39;
+        position: absolute;
+        transform: translate(-100px, -10px) skewX(10deg);
+        transition: 0.3s ease-out;
+      }
+
+      &:hover {
+        transform: scale(1.2);
+
+        &::before {
+          transform: translate(100px, -10px) skewX(10deg);
+        }
+      }
     }
 
     &-description {
@@ -52,6 +81,7 @@ export const AboutWrapper = styled.div`
     }
 
     &-name {
+      /* font-family: Product Sans, sans-serif; */
       font-size: 32px;
       line-height: 45px;
     }
@@ -96,7 +126,27 @@ export const AboutWrapper = styled.div`
     position: absolute;
     display: inline;
     right: 2em;
-    margin-top: 200px;
+    transition: 500ms ease-out;
+    overflow: hidden;
+
+    &::after {
+      content: '';
+      height: 39px;
+      width: 10px;
+      background: white;
+      z-index: 39;
+      position: absolute;
+      transform: translate(-100px, -10px) skewX(10deg);
+      transition: 0.5s ease;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+
+      &::after {
+        transform: translate(100px, -10px) skewX(10deg);
+      }
+    }
   }
 
   .About {
@@ -114,6 +164,7 @@ export const AboutWrapper = styled.div`
       .title {
         font-size: 24px;
         margin-bottom: 1em;
+        font-family: Product Sans, sans-serif;
       }
 
       .Logos {
@@ -138,6 +189,10 @@ export const AboutWrapper = styled.div`
       &-description {
         flex-direction: column;
         align-items: center;
+      }
+
+      &-experience {
+        font-size: 16px;
       }
     }
 

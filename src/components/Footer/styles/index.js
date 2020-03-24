@@ -4,7 +4,7 @@ export const FooterWrapper = styled.div`
   align-items: center;
   background: linear-gradient(to right, #a1c4fd, #c2e9fb);
   display: flex;
-  height: 300px;
+  height: 350px;
   justify-content: center;
   flex-direction: column;
   width: 100%;
@@ -34,8 +34,7 @@ export const FooterWrapper = styled.div`
       flex-direction: column;
 
       .Contact {
-        margin: 2em 16px;
-        font-size: 24px;
+        display: flex;
       }
     }
 

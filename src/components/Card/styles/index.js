@@ -118,6 +118,8 @@ export const CardWrapper = styled.div`
       font-size: 30px;
       font-weight: bolder;
       line-height: 1.2;
+      font-family: Product Sans, sans-serif;
+      /* text-transform: uppercase; */
     }
 
     .copy {
@@ -145,6 +147,11 @@ export const CardWrapper = styled.div`
       transition: 1000ms cubic-bezier(0.19, 1, 0.22, 1);;
       transform: translateY(50px);
     }
+  }
+
+  @media only screen and (max-width: 800px)  {
+    width: 90%;
+    margin: 0.5em auto;
   }
 
 `;
