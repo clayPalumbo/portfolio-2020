@@ -19,9 +19,9 @@ export const AboutWrapper = styled.div`
   .Divider {
     position: absolute;
     width: 100%;
-    height: 20px;
+    height: 100px;
     left: 0;
-    background: linear-gradient(180deg, #a1c4fd, #00000000);
+    background: linear-gradient(180deg, rgba(161, 196, 253, 1), rgba(161, 196, 253, 0));
     z-index: 100;
   }
   .Background {
