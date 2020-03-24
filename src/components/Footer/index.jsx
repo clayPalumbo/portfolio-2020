@@ -16,8 +16,8 @@ const Footer = () => {
                         Contact
                     </div> */}
                     <div>
-                        <a className="Footer-link" href="google.com" target="_blank">Linkedin</a>
-                        <a className="Footer-link" href="google.com" target="_blank">Email</a>
+                        <a className="Footer-link" href="https://www.linkedin.com/in/clay-palumbo/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                        <a className="Footer-link" href="mailto:clayptv@gmail.com?Subject=Hello%20there" target="_blank" rel="noopener noreferrer">Email</a>
                     </div>
                 </div>
             </div>
