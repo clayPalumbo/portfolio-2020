@@ -9,7 +9,7 @@ const Intro = () => {
     const animatejs = () => {
       const staggerVisualizerEl = document.querySelector('.stagger-visualizer');
       const fragment = document.createDocumentFragment();
-      const grid = [17, 17];
+      const grid = [18, 18];
       const col = grid[0];
       const row = grid[1];
       const numberOfElements = col * row;
