@@ -50,13 +50,12 @@ const cards = [
 ]
 
 const Projects = () => {
+
     return (
         <ProjectsWrapper>
             <Fade duration={1000} bottom cascade>
                 <div className="header">Selected Works</div>
             </Fade>
-            {/* <div className="subHeader">Built using a wide range of techologies including React, TypeScript, Express, CSS3, SASS, HTML5, RESTful API's, and more.</div> */}
-
             <Bounce duration={1500} bottom cascade>
                 <div className="Card-container">
                     {cards.map((card, i) => {
@@ -72,10 +71,8 @@ const Projects = () => {
                             </div>
                         )
                     })}
-
                 </div>
             </Bounce>
-
         </ProjectsWrapper>
     )
 }

@@ -152,6 +152,30 @@ export const CardWrapper = styled.div`
   @media only screen and (max-width: 800px)  {
     width: 90%;
     margin: 0.5em auto;
+
+    .Card {
+      transform: translateY(0);
+
+      .copy {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .button {
+        background: #04f799;
+        color: #000;
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .background {
+      transform: translateY(-5%)
+    }
+
+    .cover-2 {
+      opacity: 1;
+    }
   }
 
 `;

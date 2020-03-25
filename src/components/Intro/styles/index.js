@@ -38,8 +38,8 @@ export const IntroWrapper = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 17rem;
-    height: 17rem;
+    width: 16.9rem;
+    height: 16.9rem;
     transform: scale(2);
     position: absolute;
 

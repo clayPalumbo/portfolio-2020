@@ -125,6 +125,7 @@ export const AboutWrapper = styled.div`
     border-radius: 3px;
     position: absolute;
     display: inline;
+    margin-top: 200px;
     right: 2em;
     transition: 500ms ease-out;
     overflow: hidden;
@@ -167,20 +168,39 @@ export const AboutWrapper = styled.div`
         font-family: Product Sans, sans-serif;
       }
 
-      .Logos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
+      .Grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: none;
+        grid-auto-rows: 1fr;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        gap: calc(1.1vw + 8.04px);
 
-        .logo {
-          width: 200px;
-          height: 100%;
-          max-height: 120px;
-          margin: 1em;
+        &-cell {
+          -webkit-box-align: center;
+          align-items: center;
+          display: flex;
+          height: 160px;
+          -webkit-box-pack: center;
+          justify-content: center;
+          padding: calc(2.3vw + -3.28px);
+          grid-column: span 3 / auto;
+          transition: transform 450ms ease 0s, opacity 300ms ease 0s;
+          will-change: transform;
+
+          .logo {
+            height: 100%;
+            max-height: 100px;
+            max-width: 150px;
+            object-fit: contain;
+            width: 100%;
+          }
         }
       }
   }
+
 
   @media only screen and (max-width: 800px)  {
     .Profile {
@@ -193,6 +213,25 @@ export const AboutWrapper = styled.div`
 
       &-experience {
         font-size: 16px;
+        margin: 0 10px;
+        justify-content: center;
+
+        .image {
+          display: none;
+        }
+      }
+      &-right {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+      }
+    }
+
+    .About {
+      .Grid {
+        &-cell {
+          grid-column: span 6 / auto;
+        }
       }
     }
 

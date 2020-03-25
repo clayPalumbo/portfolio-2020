@@ -70,15 +70,31 @@ const About = () => {
 
                         <div className="About">
                             <div className="title">Brands I've worked with</div>
-                                <div className="Logos">
-                                    <img className="logo" src="https://www.pasadenaplayhouse.org/wp-content/uploads/2017/05/Wells-Fargo-Logo-300x300.png" alt="Wells Fargo"/>
-                                    <img className="logo" src="https://s3.amazonaws.com/static.union-7.co/uploads/client-logos/nascar.svg" alt="Nascar"/>
-                                    <img className="logo" src="https://s3.amazonaws.com/static.union-7.co/uploads/client-logos/volvo.svg" alt="Volvo"/>
-                                    <img className="logo" src="https://logodix.com/logo/1300481.png" alt="Pepsi"/>
-                                    <img className="logo" src="https://s3.amazonaws.com/static.union-7.co/uploads/client-logos/hendrick.svg" alt="Hendrick"/>
-                                    <img className="logo" src="https://s3.amazonaws.com/static.union-7.co/uploads/client-logos/crva.svg" alt="CRVA"/>
-                                    <img className="logo" src="https://s3.amazonaws.com/static.union-7.co/uploads/client-logos/discoveryplace.svg" alt="Discovery Place"/>
-                                    <img className="logo" src="https://s3.amazonaws.com/static.union-7.co/uploads/client-logos/autobell.svg" alt="Auto Bell"/>
+                                <div className="Grid">
+                                    <div className="Grid-cell">
+                                        <img className="logo" src="https://www.pasadenaplayhouse.org/wp-content/uploads/2017/05/Wells-Fargo-Logo-300x300.png" alt="Wells Fargo"/>
+                                    </div>
+                                    <div className="Grid-cell">
+                                        <img className="logo" src="https://s3.amazonaws.com/static.union-7.co/uploads/client-logos/nascar.svg" alt="Nascar"/>
+                                    </div>
+                                    <div className="Grid-cell">
+                                        <img className="logo" src="https://s3.amazonaws.com/static.union-7.co/uploads/client-logos/volvo.svg" alt="Volvo"/>
+                                    </div>
+                                    <div className="Grid-cell">
+                                        <img className="logo" src="https://logodix.com/logo/1300481.png" alt="Pepsi"/>
+                                    </div>
+                                    <div className="Grid-cell">
+                                        <img className="logo" src="https://s3.amazonaws.com/static.union-7.co/uploads/client-logos/hendrick.svg" alt="Hendrick"/>
+                                    </div>
+                                    <div className="Grid-cell">
+                                        <img className="logo" src="https://s3.amazonaws.com/static.union-7.co/uploads/client-logos/crva.svg" alt="CRVA"/>
+                                    </div>
+                                    <div className="Grid-cell">
+                                        <img className="logo" src="https://s3.amazonaws.com/static.union-7.co/uploads/client-logos/discoveryplace.svg" alt="Discovery Place"/>
+                                    </div>
+                                    <div className="Grid-cell">
+                                        <img className="logo" src="https://s3.amazonaws.com/static.union-7.co/uploads/client-logos/autobell.svg" alt="Auto Bell"/>
+                                    </div>
 
                                 </div>
                             </div>
