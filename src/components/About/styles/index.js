@@ -211,6 +211,10 @@ export const AboutWrapper = styled.div`
         align-items: center;
       }
 
+      &-position {
+        font-size: 22px;
+      }
+
       &-experience {
         font-size: 16px;
         margin: 0 10px;
