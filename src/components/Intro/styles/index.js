@@ -9,6 +9,25 @@ export const IntroWrapper = styled.div`
   flex-direction: column;
   width: 100%;
 
+  @keyframes mymove {
+  0% {bottom: 100px;}
+  50% {bottom: 80px;}
+  100% {bottom: 100px;}
+
+}
+
+  .down-arrow {
+    position: absolute;
+    bottom: 5em;
+    animation: mymove 2s infinite;
+    z-index:100;
+
+    img {
+      width: 50px;
+    }
+
+  }
+
   .Hero {
     display: flex;
     flex-direction: column;
