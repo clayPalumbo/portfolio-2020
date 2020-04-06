@@ -62,8 +62,9 @@ const About = () => {
                         <div className="About">
                             <div className="title">About</div>
                             <div className="overview">
+                            <div>React | Javascript | Typescript | GraphQL | MongoDB | MySQL | Java</div>
                             Innovative software engineer offering experience in the full software development lifecycle – from concept to production in developing modern applications and customizable solutions.
-                            Known for excellent design skills, able to set standards for design patterns through well-researched, cost-effective solutions.
+                            Searching for a team with a passion for building high-impact, well-performing user experiences.
 
                             </div>
                         </div>
