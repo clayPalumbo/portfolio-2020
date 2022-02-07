@@ -87,7 +87,7 @@ const Intro = () => {
                         Clay Palumbo
                     </div>
                     <div className="Hero-title">
-                        Creative Software Developer
+                        Creative Software Engineer
                     </div>
                 </Fade>
             </div>

@@ -13,7 +13,7 @@ const Card = (props) => {
             <div className="Card">
                 <div className="title">{props.title}</div>
                 <div className="copy">{props.copy}</div>
-                <div className="button">{props.button}</div>
+                <div className="button">Go to site</div>
             </div>
         </CardWrapper>
         </a>

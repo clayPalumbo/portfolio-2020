@@ -10,7 +10,7 @@ const Footer = () => {
                 <Slide cascade bottom>
                     <div className="Footer-left">
                         <div className="Footer-name">Clay <span>Palumbo</span></div>
-                        <div className="Footer-title">Creative Software Developer</div>
+                        <div className="Footer-title">Creative Software Engineer</div>
                     </div>
                 </Slide>
                 <div className="Footer-contact">

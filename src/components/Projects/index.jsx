@@ -6,6 +6,13 @@ import Fade from 'react-reveal/Fade';
 
 const cards = [
     {
+        title: "Spectrum",
+        copy: "Restructured an Angular application with over 30 million users from a large monorepo to a number of micro frontends.",
+        button: "Go to site",
+        image: "https://cdn.lfomedia.com/layout_assets/charter/assets/8n_redesign/images/4fa7b97a93a7090550157b8a8ed4da60.devices.png",
+        link: "https://www.spectrum.net/"
+    },
+    {
         title: "Charlotte",
         copy: "Built features for Charlotte's online destination to discover all that's happening in the QC.",
         button: "Go to site",
@@ -18,13 +25,6 @@ const cards = [
         button: "Go to site",
         image: "https://s3.us-east-1.amazonaws.com/nascarhall.com/uploads/images/CRVA-1410-day_2-nascar_museum-0036.jpg?mtime=20200130120535",
         link: "https://www.nascarhall.com/"
-    },
-    {
-        title: "Cafe Rio",
-        copy: "Built feautres that are used site wide for a highly interactive ecommerce web application.",
-        button: "Go to site",
-        image: "https://unionco.imgix.net/uploads/images/cr_slantyscreens.png?w=1800&fm=jpg&lossless=1",
-        link: "https://www.caferio.com/"
     },
     {
         title: "Chevrolet",
@@ -64,7 +64,6 @@ const Projects = () => {
                                 <Card
                                     title={card.title}
                                     copy={card.copy}
-                                    button={card.button}
                                     image={card.image}
                                     link={card.link}
                                 />
